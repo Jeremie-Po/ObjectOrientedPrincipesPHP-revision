@@ -9,7 +9,9 @@ class localStorage implements FileStorage
         $root = __DIR__.'/../storage';
         $savePath = "{$root}/{$path}";
 
-        mkdir(dirname($savePath), 0777, true);
+        if (!file_exists(dirname($savePath))) {
+            mkdir($savePath, 0777, true);
+        }
 
         file_put_contents($savePath, $content);
     }
