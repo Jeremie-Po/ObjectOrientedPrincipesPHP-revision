@@ -1,17 +1,17 @@
 {
-    "name": "jeremiepourageaux/object-oriented-principes-php-revision",
-    "autoload": {
-        "psr-4": {
-            "Jeremiepourageaux\\ObjectOrientedPrincipesPhpRevision\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Jérémie P",
-            "email": "jpourageaux@hotmail.fr"
-        }
-    ],
-    "require": {
-        "aws/aws-sdk-php": "^3.337"
+  "name": "jeremiepourageaux/object-oriented-principes-php-revision",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Jérémie P",
+      "email": "jpourageaux@hotmail.fr"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "^3.337"
+  }
 }

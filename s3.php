@@ -7,7 +7,7 @@ use Aws\S3\S3Client;
 $s3Key = 'AKIAYXWBOBSCSWQSGJXY';
 $s3Secret = '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';
 
-$file = 'text.txt';
+$file = 'text1.txt';
 $content = 'hello World';
 $bucket = 'testlaracast';
 
