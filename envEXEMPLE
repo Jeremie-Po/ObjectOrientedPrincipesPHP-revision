@@ -1,0 +1,4 @@
+FILE_STORAGE='s3'
+S3_KEY='AKIAYXW'
+S3_SECRET='cMZ9rJfhYTIMga2'
+S3_BUCKET='testlaracast'
